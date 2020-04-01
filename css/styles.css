@@ -7,39 +7,47 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   width: 450px;
-  border: 2px solid #2A9FBC;
+  margin: 20px;
+  display: flex;
+  
 }
 
 header, footer {
-  background-color: #2A9FBC;
+  background: linear-gradient(250deg, #5778EB 1.81%, rgba(255, 255, 255, 0) 100%), #1EA5CF;
   color: white;
   padding: 10px 5px;
+  border-radius: 3px;
 }
 
-header h1 {
+header, h1 {
   font-size: 24px;
 }
 
 .ratings div {
   padding: 5px;
-  border-bottom: 2px solid #2A9FBC;
-  color: #1F778D;
+  margin: 10px;
+  color: #5778EB;
 }
 
 .ratings input[type="number"] {
   text-align: right;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 24px;
   padding: 5px;
   border: none;
-  color: #1F778D;
+  color: #5778EB;
 }
 
 .row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  font-size: 24px;
 
+}
+
+.title {
+  color: white;
+  text-align: center;
 }
 
 .advanced {
@@ -50,4 +58,14 @@ header h1 {
   padding: 10px;
   color: #1F778D;
   border-radius: 10px;
+}
+
+.flex-container {
+  width: max-content;
+  display: flex;
+}
+
+.main {
+  align-content: center;
+  width: 400px;
 }
