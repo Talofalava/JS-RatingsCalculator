@@ -10,5 +10,7 @@ const collect_ratings = () => {
 
         ratings.count += parseInt(element.value);
 
+        ratings.sum += parseInt(element.value);
+
     })
 }
