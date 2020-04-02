@@ -21,3 +21,9 @@ const collect_ratings = () => {
 
     return ratings;
 }
+
+document.addEventListener('change', () => {
+    const ratings = collect_ratings();
+
+
+})
