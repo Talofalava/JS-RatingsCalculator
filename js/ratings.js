@@ -5,5 +5,6 @@ const collect_ratings = () => {
 
     const elements = document.querySelectorAll('.rating');
 
-    
+    elements.forEach( elemnt => {
+    })
 }
